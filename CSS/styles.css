@@ -1,0 +1,50 @@
+body 
+{
+    background-color: rgb(255, 255, 255);
+    font-family: arial;
+    color: white
+}
+
+h1
+{
+    color: azure;
+    background-color: black;
+    text-emphasis-color: red;
+    width: 99%;
+    border-radius: 30px;
+    text-align: center;
+    font-size: 60px;
+}
+
+.titlediv
+{
+    text-align: center;
+    width: 15%;
+    background-color: black;
+    text-decoration: bisque;
+    padding: 20px;
+    border-radius: 40px; 
+    display: inline;
+    float : left; 
+}
+
+.titlediv:hover
+{
+    text-decoration: underline;
+}
+
+.rightside
+{
+    position: relative;
+    left: 5%
+}
+
+img
+{
+    width: 80%;
+    height: auto;
+    border-radius: 200px;
+    padding: 10px;
+    border: 0px;
+    border-color: aliceblue;
+}
