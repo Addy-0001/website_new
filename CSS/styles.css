@@ -20,6 +20,7 @@ h1
 {
     text-align: center;
     width: 15%;
+    height: 50%;
     background-color: black;
     text-decoration: bisque;
     padding: 20px;
@@ -45,6 +46,6 @@ img
     height: auto;
     border-radius: 200px;
     padding: 10px;
-    border: 0px;
+    border: 50%;
     border-color: aliceblue;
 }
