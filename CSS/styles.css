@@ -1,6 +1,6 @@
 body 
 {
-    background-color: rgb(255, 255, 255);
+    background-color: beige;
     font-family: arial;
     color: white
 }
@@ -27,6 +27,12 @@ h1
     border-radius: 40px; 
     display: inline;
     float : left; 
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: space-around;
 }
 
 .titlediv:hover
@@ -34,8 +40,7 @@ h1
     text-decoration: underline;
 }
 
-.rightside
-{
+.rightside {
     position: relative;
     left: 5%
 }
