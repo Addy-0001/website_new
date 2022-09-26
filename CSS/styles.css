@@ -70,17 +70,10 @@ img
     border-color: rgb(71, 101, 128);
 }
 
-p
-{
-    text-align: center;
-    text-transform: capitalize;
-    text-decoration: dotted;
-    font-size: 20px;
-}
-
 .contentdiv
 {
+    display: flex;
     width: 99.99%;
     background-color: black;
-    font-size: 400px;
+    font-size: 650%;
 }
