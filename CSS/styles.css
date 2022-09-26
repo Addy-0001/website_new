@@ -18,7 +18,8 @@ h1
 
 h1:hover
 {
-    text-transform: capitalize;
+    transform: scale(1.1);
+    text-transform: uppercase;
 }
 
 .divmgmt
@@ -33,18 +34,18 @@ h1:hover
 
 .titlediv
 {
-    
     text-align: center;
     width: 40%;
     background-color: black;
-    text-decoration: bisque;
+    font-style: italic;
     padding: 20px;
-    border-radius: 50px;   
+    border-radius: 20%;   
 }
 
 .titlediv:hover
 {
     text-decoration: underline;
+    transform: scale(1.1);
 }
 
 img
