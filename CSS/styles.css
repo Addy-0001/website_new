@@ -36,7 +36,6 @@ h1:hover
     
     text-align: center;
     width: 40%;
-    height: 630px;
     background-color: black;
     text-decoration: bisque;
     padding: 20px;
@@ -53,4 +52,13 @@ img
     width: 50%;
     height: auto;
     border-radius: 200px;
+}
+
+p
+{
+    text-align: center;
+    text-transform: capitalize;
+    text-decoration: dotted;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
 }
