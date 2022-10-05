@@ -1,91 +1,52 @@
-body 
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+body
 {
-    background-color: beige;
-    font-family: arial;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0; 
+}
+/*Changing the Header Section of the code*/
+.hero-bg
+{
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    grid-template-areas: "text photo";
+    background: black;
+    padding: 1em 0 0 0; 
+}
+
+.Trainer
+{
+    font-size: 30px;
+    color: red;
+}
+
+.hero-bg h1 
+{
+    text-align: center;
+    font-size: 60px;
     color: white;
 }
 
-h1
+.left-col
 {
-    color: azure;
-    background-color: black;
-    text-emphasis-color: red;
-    width: 99%;
-    border-radius: 30px;
-    text-align: center;
-    font-size: 80px;
+    grid-area: text;
+    text-align: left;
+    align-self: center;
+    margin: 0em 2em 0em 2em; 
 }
 
-h1:hover
+.right-col
 {
-    transform: scale(1.1);
-    color: antiquewhite;
+    grid-area: photo;
+    margin: 2em 2em 2em 2em;
 }
 
-h2
+.right-col img
 {
-    color: azure;
-    background-color: aqua;
-    width: 99%;
-    border-radius: 30px;
-    text-align: center;
-    font-size: 20px;
+    width: 80%;
+    border-radius: 10%;
 }
 
-.divmgmt
-{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    align-items: flex-start;
-    align-content: space-evenly;
-}
 
-.titlediv
-{
-    border: 5px solid;
-    border-color: rgb(255, 255, 255);
-    text-align: center;
-    width: 40%;
-    background-color: black;
-    font-style: italic;
-    padding: 20px;
-    border-radius: 50px;   
-}
 
-.titlediv:hover
-{
-    text-decoration: underline;
-    transform: scale(1.1);
-    transform-style: preserve-3d;
-}
-
-img
-{
-    border: 3px solid;
-    width: 50%;
-    height: auto;
-    border-radius: 40%;
-    border-color: rgb(71, 101, 128);
-}
-
-.contentdiv
-{
-    display: flex;
-    width: 99.99%;
-    background-color: rgb(194, 76, 76);
-    font-size: 650%;
-}
-
-.menubar
-{
-    display: flex;
-    width: 99.99%; 
-    background-color: black;
-    color: white;
-    border-radius: 0%;
-    padding: 2px;
-    text-align: end;
-    justify-content: space-evenly;
-}
