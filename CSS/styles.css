@@ -5,63 +5,66 @@ body
     font-family: 'Montserrat', sans-serif;
     margin: 0; 
 }
-/*Changing the Header Section of the code*/
-.hero-bg
+
+.top
 {
-    display: grid;
-    grid-template-columns: repeat(2, 50%);
-    grid-template-areas: "text photo";
-    background: black;
-    padding: 1em 0 0 0; 
-    z-index: -2;
+    color:white;
+    background-color: black;
+    padding: 0px;
+    margin: 0px; 
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    align-content: flex-start;
 }
 
-.Trainer
+.top img
 {
-    font-size: 30px;
+    width: 100%;
+    height: 100%
+}
+
+.top h1
+{
+    font-size: 60px;
+    text-align: center;
+    padding: 2em 2em;
+}
+
+.trainer
+{
     color: red;
     position: relative;
 }
 
-h1 
+.about-container
 {
-    text-align: center;
-    font-size: 60px;
-    color: white;
-    position: relative;
+    background-color: red;
+    margin: 0;
+    align-items: center;
 }
 
-.Trainer::before
+.about-container h3
 {
-    content: ' ';
-    position: absolute;
-    width: 3em;
-    background-color: white;
-    height: .8em;
-    bottom: 1;
-    z-index: 1;
-    margin-left: -.8em;
+    text-transform: uppercase;
+    font-size: 30px;
+    margin-top: 0;
 }
 
-.left-col
+.about-container em
 {
-    grid-area: text;
-    text-align: left;
-    align-self: center;
-    margin: 0em 2em 0em 2em; 
+    font-style:normal;
+    color: yellow;
 }
 
-.right-col
+.about-container p
 {
-    grid-area: photo;
-    margin: 2em 2em 2em 2em;
+    width: 65%;
 }
 
-.right-col img
+@media (max-width:1283px)
 {
-    width: 80%;
-    border-radius: 10%;
+    
 }
-/*End of Heading Section*/
-
-/*About Me Section of the code*/
