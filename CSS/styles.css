@@ -84,6 +84,7 @@ nav a
 .about-container p
 {
     width: 65%;
+    padding: 0 0 3em 0;
 }
 .about-container em
 {
@@ -168,4 +169,10 @@ nav a
     border-radius: 6%;
     text-align: left;
     padding: .5em;
+}
+
+.contacts
+{
+    text-align: center;
+    
 }
