@@ -188,6 +188,29 @@ nav a
 .socials img
 {
     width: 40px;
+    bottom: .5em;
+}
+
+.socials a
+{
+    width: auto;
+    font-size: 100%;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+}
+
+.logos
+{
+    background-color: black;
+    color: white;
+}
+
+.logos h3
+{
+    font-size: 30px;
+    text-align: left;
+    padding: 0 4em 0 4em
 }
 
 /*
@@ -212,10 +235,7 @@ nav a
     {
         width: 100%;
     }
-}
 
-@media (max-width: 1127px)
-{
     .reviews {
             background-color: black;
             color: white;
@@ -225,24 +245,23 @@ nav a
             justify-content: space-around;
             align-items: center;
             align-content: space-around;
-            column-gap: 10px;
         }
     .manoj
     {
         background-color: red;
         color: whitesmoke;
-        width: 70%;
+        width: 80%;
         border-radius: 50px;
         text-align: left;
         padding: 2em;
         border: 10px solid;
-            border-color: black;
+        border-color: black;
     }
     .dipjung
     {
         background-color: red;
         color: whitesmoke;
-        width: 70%;
+        width: 80%;
         border-radius: 50px;
         text-align: left;
         padding: 2em;
@@ -253,7 +272,7 @@ nav a
     {
         background-color: red;
         color: whitesmoke;
-        width: 70%;
+        width: 80%;
         border-radius: 50px;
         text-align: left;
         padding: 2em;
