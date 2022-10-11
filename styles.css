@@ -8,13 +8,14 @@ body
 
 nav
 {
+
     display: flex;
     color: white;
     background-color: red;
     padding: .5em;
     flex-direction: row;
     flex-wrap: nowrap;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     align-content: stretch;
 }
@@ -25,7 +26,7 @@ nav a
     text-transform: none;
     text-decoration: none;
     font-weight: bold;
-    color: black;
+    color: white;
 }
 
 .top
@@ -37,21 +38,42 @@ nav a
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: center;
     align-content: flex-start;
 }
 
 .top img
 {
-    width: 600px;
+    width: 320px;
 }
 
 .top h1
 {
     font-size: 60px;
-    text-align: center;
-    padding: 2em 2em;
+    text-align: left;
+    padding: 1em 1em;
+}
+
+h1 span 
+{
+    text-transform: uppercase;
+    display: block;
+    font-size: 45px;
+    position: relative;
+    z-index: 1;
+}
+
+h1 span::before
+{
+    content: ' ';
+    position: absolute;
+    width: 4em;
+    background-color: white;
+    height: .4em;
+    bottom: 0;
+    z-index: -1;
+    margin-left: -.5em;
 }
 
 .trainer
@@ -62,7 +84,6 @@ nav a
 
 .about-container
 {
-    display: flex;
     background-color: red;
     display: flex;
     flex-direction: column;
@@ -70,26 +91,54 @@ nav a
     justify-content: center;
     align-items: center;
     align-content: space-around;
+    padding: 2em;
 }
 
-.about-container h3
+h3
 {
+    display: block;
     padding: 2em 0 0 0;
     text-transform: uppercase;
     font-size: 30px;
     margin-top: 0;
+    position: relative;
+    z-index: 1;
 }
 
-.about-container p
+h3::before
+{
+    content: ' ';
+    position: absolute;
+    width: 4em;
+    background-color: red;
+    height: .4em;
+    bottom: 0;
+    z-index: -1;
+    margin-left: -.5em;
+}
+
+.AlbertBox
 {
     width: 65%;
-    padding: 0 0 3em 0;
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: space-around;
+    border-radius: 20px;
+    border-color: white;
+    background-color: white;
+    
 }
-.about-container em
+
+.AlbertBox p
 {
-    font-style:normal;
-    color: yellow;
+    width: 80%;
+}
+
+.AlbertBox em
+{
+    font-style: normal;
+    color: red;
 }
 
 
