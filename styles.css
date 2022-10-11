@@ -171,7 +171,7 @@ h3::before
     color: Red;
     background-color: black;
     border: 0;
-    padding: 0;
+    padding: 2em 0 0 0;
     text-align: center; 
     font-size: 30px;
     font-weight: bold;
@@ -180,7 +180,7 @@ h3::before
 .review-title em
 {
     font-style: normal;
-    color: yellow;
+    color: white;
 }
 .reviews
 {
@@ -256,6 +256,7 @@ h3::before
 {
     background-color: black;
     color: white;
+    padding: 2em; 
 }
 
 .logos h3
