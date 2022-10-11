@@ -18,6 +18,7 @@ nav
     justify-content: space-around;
     align-items: center;
     align-content: stretch;
+    top: 0px;
 }
 
 
@@ -111,7 +112,7 @@ h3::before
     position: absolute;
     width: 4em;
     background-color: red;
-    height: .4em;
+    height: .6em;
     bottom: 0;
     z-index: -1;
     margin-left: -.5em;
@@ -133,6 +134,7 @@ h3::before
 .AlbertBox p
 {
     width: 80%;
+    padding: 0 0 2em 0;
 }
 
 .AlbertBox em
@@ -169,7 +171,7 @@ h3::before
     background-color: black;
     border: 0;
     padding: 0;
-    text-align: left; 
+    text-align: center; 
     font-size: 30px;
     font-weight: bold;
 }
@@ -197,7 +199,7 @@ h3::before
     background-color: red;
     color: whitesmoke;
     width: 30%;
-    border-radius: 50px;
+    border-radius: 30px;
     text-align: left;
     padding: .9em;
 }
@@ -206,7 +208,7 @@ h3::before
     background-color: red;
     color: whitesmoke;
     width: 30%;
-    border-radius: 50px;
+    border-radius: 30px;
     text-align: left;
     padding: .9em;
 }
@@ -215,7 +217,7 @@ h3::before
     background-color: red;
     color: whitesmoke;
     width: 30%;
-    border-radius: 50px;
+    border-radius: 30px;
     text-align: left;
     padding: .9em;
 }
@@ -258,8 +260,13 @@ h3::before
 .logos h3
 {
     font-size: 30px;
-    text-align: left;
-    padding: 0 4em 0 4em
+    text-align: center;
+    padding: 0 4em 0 4em;
+}
+
+footer
+{
+    padding: 1em;
 }
 
 /*
