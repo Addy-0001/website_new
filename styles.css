@@ -18,6 +18,7 @@ nav
     justify-content: space-around;
     align-items: center;
     align-content: stretch;
+    position: sticky;
     top: 0px;
 }
 
