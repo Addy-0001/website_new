@@ -223,6 +223,16 @@ h3::before
     padding: .9em;
 }
 
+.certification
+{
+    text-align: center;
+}
+
+.certification img
+{
+    width: 90%;
+}
+
 .contacts
 {
     text-align: center;
