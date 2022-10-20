@@ -233,6 +233,21 @@ h3::before
     width: 90%;
 }
 
+.GoogleForm
+{
+    text-align: center;
+}
+
+.GoogleForm h2
+{
+    font-size: 30px;
+    
+}
+.GoogleForm em
+{
+    text-emphasis: none;
+}
+
 .contacts
 {
     text-align: center;
