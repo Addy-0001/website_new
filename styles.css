@@ -20,6 +20,7 @@ nav
     align-content: stretch;
     position: sticky;
     top: 0px;
+    z-index: 2;
 }
 
 
