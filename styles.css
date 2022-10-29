@@ -239,11 +239,16 @@ h3::before
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-content: space-between;
     padding: 2em; 
 }
 
+.GoogleForm a
+{
+    text-decoration: none;
+    color: white;
+}
 .GoogleForm h2
 {
     font-size: 30px;
@@ -259,18 +264,14 @@ h3::before
 {
     font-style: normal;
     text-transform: none;
+    text-decoration: none;
+    color: white;
     text-align: center;
     color: white;
-    width: 30%;
+    width: 120%;
+    height: 100%;
     background-color: red;
     border-radius: 25px;
-    border: 2em; 
-}
-
-.form-button a
-{
-    color: white;
-    text-decoration: none;
 }
 
 .contacts
