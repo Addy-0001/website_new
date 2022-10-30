@@ -268,8 +268,7 @@ h3::before
     color: white;
     text-align: center;
     color: white;
-    width: 120%;
-    height: 100%;
+    width: 25%;
     background-color: red;
     border-radius: 25px;
 }
